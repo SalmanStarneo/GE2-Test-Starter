@@ -9,16 +9,18 @@ public class Nematode : MonoBehaviour
 
     public Material material;
 
+    public UnityEngine.GameObject nematode;
+
     public void Awake()
     {
-        // Put your code here!
+        
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Instantiate(nematode, new UnityEngine.Vector3(0,0,0), UnityEngine.Quaternion.identity);
     }
 
     // Update is called once per frame
