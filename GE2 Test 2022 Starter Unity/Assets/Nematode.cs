@@ -1,16 +1,15 @@
+using System.Numerics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class Nematode : MonoBehaviour
 {
-
-    public int length = 5;
+    public int length = 10;
 
     public Material material;
 
-    void Awake()
+    public void Awake()
     {
         // Put your code here!
     }
