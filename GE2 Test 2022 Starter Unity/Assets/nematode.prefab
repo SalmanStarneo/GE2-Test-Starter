@@ -48,7 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   length: 20
-  material: {fileID: 2100000, guid: 6e4fc4decf74e1c45909682693921aee, type: 2}
+  material: {fileID: 2100000, guid: 6ffa96848b831e040b58f67bb837e753, type: 2}
+  nematode: {fileID: 0}
 --- !u!114 &6526085624145273371
 MonoBehaviour:
   m_ObjectHideFlags: 0
