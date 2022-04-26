@@ -16,7 +16,7 @@ public class Arrive: SteeringBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + force * 100);
-        //Gizmos.DrawSphere(transform.position, 10);
+        Gizmos.DrawSphere(transform.position, 10);
     }
 
     public override Vector3 Calculate()
